@@ -88,11 +88,11 @@ python -f xxx.apk
 
 所以我们要**实现内存加载DEX**的话，不仅需要自己重写这套DEX文件调用链，最主要的是寻找一个Native层API实现传入DEX文件字节流来获取cookie值，就是下面右图所示调用链，API即openMemory(4.3 ART虚拟机以后， 4.3及其以前Dalvik虚拟机用openDexFile([byte...)API)即可实现这样的功能
 
-![内存加载DEX](D:\学习记录\Android逆向\4加固\Java层DEX加固-内存加载\images\内存加载DEX.png)
+![内存加载DEX](images\内存加载DEX.png)
 
 Android 8以后BaseDexClassLoader类就有内存加载的能力，参考Android 8源码，已经加入了这样的接口，我们只需要将相关代码文件copy下来，将最底层的Native函数用openMemory替代即可
 
-![image-20200415234950548](D:\学习记录\Android逆向\4加固\Java层DEX加固-内存加载\images\image-20200415234950548.png)
+![image-20200415234950548](images\image-20200415234950548.png)
 
 ## 自定义MyDexClassLoader
 
