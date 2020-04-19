@@ -1,0 +1,4 @@
+cd D:\学习记录\Android逆向\4加固\Java层DEX加固-内存加载\cpp
+d:
+D:\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe . -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=D:\Android\Sdk\ndk\20.0.5594570\build\cmake\android.toolchain.cmake -DANDROID_ABI=x86 -DANDROID_NDK=D:\Android\Sdk\ndk\20.0.5594570 -DANDROID_PLATFORM=android-16 -DCMAKE_ANDROID_ARCH_ABI=x86 -DCMAKE_ANDROID_NDK=D:\Android\Sdk\ndk\20.0.5594570 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_MAKE_PROGRAM=D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe -DCMAKE_SYSTEM_NAME=Android -DCMAKE_SYSTEM_VERSION=16 -GNinja
+D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
