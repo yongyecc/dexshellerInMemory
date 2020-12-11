@@ -5,7 +5,7 @@
 # 使用说明
 
 ```powershell
-python -f xxx.apk
+python sheller.py -f xxx.apk
 ```
 
 # 加固原理
