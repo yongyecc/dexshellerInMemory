@@ -191,3 +191,8 @@ D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
 
 【2】[内存解密并加载DEX](https://github.com/woxihuannisja/Bangcle)
 
+# 鼓励
+
+![支付宝](/images/zfb.jpg)
+
+![微信](/images/wx.jpg)
