@@ -193,6 +193,6 @@ D:\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
 
 # 鼓励
 
-![支付宝](/images/zfb.jpg)
+![支付宝](/images/zfb.png)
 
-![微信](/images/wx.jpg)
+![微信](/images/wx.png)
